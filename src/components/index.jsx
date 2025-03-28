@@ -16,6 +16,7 @@ function Index() {
     })
   }
 
+  //this will run while the component is loading.
   useEffect(()=>{
     fetchFact();
   },[])
